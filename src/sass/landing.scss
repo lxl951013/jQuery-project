@@ -1,0 +1,222 @@
+/* 
+  登陆页面样式
+*/
+
+body{
+	font-family: '微软雅黑';
+	color: #231815;
+	font-size: 14px;
+	min-width: 1382px;
+}
+
+
+.container{
+    
+
+    /* 头部 */
+	.header{
+	    margin:0 auto;
+	    height:60px;
+	    padding:0 216px;
+	    border-bottom:solid 1px #dcdcdc;
+
+	    h1{
+	        margin-top:20px;
+
+	       a{  
+	           display:inline-block;
+	           height:40px;
+	           float:left;
+	           &:nth-child(1){
+	               border-right:solid 1px black;
+	               padding-right:10px;
+
+	            }
+	            &:nth-child(2){
+	               padding-left:10px;
+	               color:#787878;
+	           }
+	       }
+	    }
+
+	}
+
+    /* 主体 */
+	.center{
+	    padding:0 216px;
+	    height:550px;
+
+	    .center-left{
+	        float:left;
+	        margin-top:100px;
+	        padding:10px 0;
+
+	        h3{ 
+	           height:30px;
+	           margin-top:20px;
+	           text-align:center;
+	           font-weight:normal;
+	           p{
+	             display: inline-block;
+	             color:#808080;
+	           }
+	           a{
+	             margin-left:10px;
+	             color:#00aaee;
+	           }
+	        }
+	    }
+
+	    .center-right{
+	        float:right;
+	        margin-top:30px;
+	        padding:10px 0;
+
+	        h3{
+	         padding:0 80px 30px 80px;
+	         color:#808080;
+	         font-weight:normal;
+	        }
+
+	        .loding{
+	            margin:0 80px;
+	            border:solid 1px #cacaca;
+	            text-align:center;
+	            position:relative;
+
+	            h4{
+	               color:#4d4d4d;
+	               font-size:18px;
+	               font-weight:normal;
+	               padding:26px 0 16px 0;
+	            }
+
+	            .user{
+	               width:220px;
+	               height:48px;
+	               border:solid 1px #aaabab;
+	               margin:0 0 10px 52px;
+
+	               span{
+	                   display:inline-block;
+	                   width:48px;
+	                   height:48px;
+	                   background:#aaabab;
+	                   float:left;
+
+	                   img{
+	                   margin-top:10px;
+	                   }
+
+	               }
+	               input{
+                       float:left;
+                       width:168px;
+                       margin-top:14px;
+                       border:none;
+                       text-indent:4px;
+	               }
+	            }
+
+	            .password{
+	               width:220px;
+	               height:48px;
+	               border:solid 1px #aaabab;
+	               margin:0 0 10px 52px;
+
+	               span{
+                       display:inline-block;
+	                   width:48px;
+	                   height:48px;
+	                   background:#aaabab;
+	                   float:left;
+
+	                   img{
+	                   margin-top:10px;
+	                   }
+
+	               }
+	               input{
+                       float:left;
+                       width:168px;
+                       margin-top:14px;
+                       border:none;
+                       text-indent:4px;
+	               }
+
+	            }
+	            p{
+	                margin-left:130px;
+	                a{
+                       color:#00aaee;
+	                }
+	            }
+	            .btn-loding{
+	               width:220px;
+	               button{
+	                  height:40px;
+	                  width:220px;
+	                  border-radius:6px;
+	                  background:#00aaee;
+	                  border:none;
+	                  margin:10px 0 10px 52px;
+	                  font-size:16px;
+	                  color:white;
+
+	               }
+	               h3{
+	                 width:220px;
+	                 padding:0;
+	                 padding-bottom:20px;
+	                 margin-left:50px;
+                    a{
+                     display:inline-block;
+                     color:#00aaee;
+                     font-size:14px;
+
+                     &:nth-child(2){
+                        margin-left:100px;
+                     }
+                     
+                    }
+	               }
+	            }
+	            .hidden{
+	                width:60px;
+	                height:60px;
+	                background:url('../img/loding-erweima.png') no-repeat -200px -200px;
+	                position:absolute;
+	                top:0;
+	                right:0;
+	            }
+	        }
+
+	    }
+	}
+
+
+	/* 底部 */
+	.footer{
+	    padding:0 216px;
+	    text-align:center;
+
+	    h3{
+           font-weight:normal;
+           padding:10px 0;
+
+           a{
+            margin:0 6px;
+            color:#8f8fb3;
+           }
+	    }
+	    h4{
+           font-weight:normal;
+           padding-bottom:10px;
+
+           a{
+            color:#8f8fb3;
+           }
+	    }
+	}
+	
+}
