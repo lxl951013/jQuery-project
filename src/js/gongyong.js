@@ -6,10 +6,8 @@ $(function(){
 	
 	*/
 
-	var $head=$('.head-top');
-	var $box=$head.children('.box-right');
-	$box.on('mouseenter','.box-right a',function(){
-		console.log(666);
-	})
+	$('.header').load('../html/gongyong.html header');
+    $('.footer').load('../html/gongyong.html footer');
+	
 
-})
+});
