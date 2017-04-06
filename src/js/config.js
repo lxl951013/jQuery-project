@@ -11,6 +11,7 @@ requirejs.config({
 		'gongyong':'gongyong',
 		'home2':'home2',
 		'home3':'home3',
+		'register':'register',
 
 
 	},

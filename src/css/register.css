@@ -45,6 +45,7 @@ body {
 .container .min .content .content-left {
   float: left;
   width: 738px;
+  height: 298px;
   padding: 10px 20px 10px 20px;
 }
 
@@ -80,6 +81,16 @@ body {
   right: 122px;
 }
 
+.container .min .content .content-left form .user span {
+  display: block;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 60px;
+  margin-top: 1px;
+  color: red;
+}
+
 .container .min .content .content-left form .phone {
   height: 60px;
   position: relative;
@@ -100,10 +111,20 @@ body {
   left: 260px;
 }
 
+.container .min .content .content-left form .phone span {
+  display: block;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 74px;
+  margin-top: 1px;
+  color: red;
+}
+
 .container .min .content .content-left form .verification {
-  position: relative;
   height: 60px;
   padding-left: 14px;
+  position: relative;
 }
 
 .container .min .content .content-left form .verification lable {
@@ -114,16 +135,38 @@ body {
   height: 30px;
 }
 
-.container .min .content .content-left form .verification p {
+.container .min .content .content-left form .verification .randomNum {
+  height: 34px;
+  width: 100px;
   display: inline-block;
   position: absolute;
-  left: 260px;
+  left: 258px;
 }
 
-.container .min .content .content-left form .verification p span {
+.container .min .content .content-left form .verification .randomNum p {
   display: inline-block;
-  margin-top: 0;
-  margin-left: 6px;
+  width: 40px;
+  height: 34px;
+  line-height: 34px;
+  background: pink;
+  text-align: center;
+  color: red;
+  border-radius: 2px 2px;
+}
+
+.container .min .content .content-left form .verification .randomNum i {
+  line-height: 34px;
+  float: right;
+}
+
+.container .min .content .content-left form .verification span {
+  display: block;
+  width: 150px;
+  height: 20px;
+  line-height: 20px;
+  margin-left: 60px;
+  margin-top: 1px;
+  color: red;
 }
 
 .container .min .content .content-left form button {

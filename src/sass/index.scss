@@ -24,6 +24,7 @@
 	   float:left;
 	   position:relative;
 
+
 	   ul{
 	      width:234px;
 	      height:530px;
@@ -34,7 +35,8 @@
 	            .li-top{
 	                height:19px;
 	                margin-top:2px;
-                    position:relative;
+	                position:relative;
+                    
 
                     span{
                         width:16px;
@@ -52,7 +54,7 @@
                         top:3px;
                         background:white;
                         right:-5px;
-                        z-index:10;
+                        z-index:1000;
                         display:none;
                                                
                     }	                   
@@ -70,11 +72,7 @@
 	                 }
 	            }
 	            
-	            	        
-	        }
-
-	   }
-       .li-hide{
+	            .li-hide{
 	                 width:736px;
 	                 height:530px;
 	                 border:solid 1px #dcdcdc;
@@ -83,15 +81,103 @@
 	                 top:0;
 	                 left:244px;
 	                 display:none;
+	                 z-index:100;
+	                 background:white;
+
+	                 .hide-left{
+                        float:left;
+                        width:194px;
+                        height:530px;
+                        border-right:solid 1px #dcdcdc;
+                        h3{
+                          margin:10px 0 10px 10px;
+                        }
+                        a{
+                          padding:4px 15px 4px 10px;
+                          color:#696969;
+                        }
+	                 }
+	                 .hide-right{
+	                    float:right;
+	                 }
+
 	                 
-	    }
+	            }	        
+	        }
+
+	   }
+       
 	}
 	.banner-center{
 	   width:732px;
 	   height:526px;
-	   background:yellow;
 	   float:left;
 	   padding:5px 5px 0 5px;
+	   position:relative;
+
+	   ul{  
+	        width:732px;
+	        height:480px;
+	        
+
+	        li{
+	          position:absolute;
+
+	          img{
+	             width:732px;
+	             height:480px;
+	             
+	          }
+	        }
+
+	   }
+	   span{
+           display: inline-block;
+		   width:240px;
+		   height:40px;
+		   line-height:40px;
+		   margin-top:4px;
+		   text-align:center;
+		   font-weight:bolder;
+		   color:#666666;
+		   float:left;
+		   border-top:solid 1px #dcdcdc;
+		   border-bottom:solid 1px #dcdcdc;
+
+		   &:nth-child(1){
+		     border-left:solid 1px #dcdcdc;
+		   }
+		   &:nth-child(3){
+		     border-right:solid 1px #dcdcdc;
+		   }
+	   }
+	   .prev{
+	        left:5px;
+	        top:50%;
+	        margin-top:-20px;
+	        position: absolute;
+	        width:40px;height:40px;
+	        line-height:40px;
+	        background:url(../img/btn-L.png) no-repeat;
+	        }
+		.next{
+		    right:5px;
+		    top:50%;
+		    margin-top:-20px;
+		    position: absolute;
+		    width:40px;
+		    height:40px;
+		    line-height:40px;
+		    background:url(../img/btn-R.png) no-repeat;
+		    }
+		
+		.active{
+		  border-top:solid 1px #d51819;
+		  color:#000000;
+		}
+	  
+
+
 	}
 	.banner-right{
 	   width:250px;
@@ -111,9 +197,56 @@
 
 /*   Switch样式  */
 .Switch{
-    background:pink;
 	padding:5px $bodyPdR 5px $bodyPdL;
-	height:142px;
+	height:132px;
+
+	.box{
+       width:1240px;
+       height:132px;
+       overflow:hidden;
+       position:relative;
+
+       ul{
+           width:2480px;
+           height:132px;
+           position:absolute;
+           left:0;
+
+         li{
+           float:left;
+           margin-right:16px;
+           margin-top:6px;
+
+
+           &:nth-child(5){
+             margin-right:0;
+           }
+           &:nth-child(10){
+             margin-right:0;
+           }
+         }
+       }
+
+       .btnLeft{
+	        left:5px;
+	        top:50%;
+	        margin-top:-20px;
+	        position: absolute;
+	        width:40px;height:40px;
+	        line-height:40px;
+	        background:url(../img/btn-L.png) no-repeat;
+	        }
+
+	    .btnRight{
+	        right:5px;
+	        top:50%;
+	        margin-top:-20px;
+	        position: absolute;
+	        width:40px;height:40px;
+	        line-height:40px;
+	        background:url(../img/btn-R.png) no-repeat;
+	        }
+	}
 
 	
 }
