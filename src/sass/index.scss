@@ -4,7 +4,7 @@
 
 
 //引入外部公用样式
-@import'common';
+@import'var';
 
 
 
@@ -249,6 +249,161 @@
 	}
 
 	
+}
+
+/*   min样式  */
+.goods{
+	padding-left:$bodyPdL;
+	padding-right:$bodyPdR;
+
+	.goodsList{
+        height:540px;
+
+        .goodsList-left{
+           width:240px;
+           float:left;
+
+           h3{
+             height:56px;
+             line-height:56px;
+             padding-left:10px;
+           }
+           .box{
+              height:115px;
+
+              a{
+                margin:0 30px;
+                line-height:30px;
+                color:black;
+              }
+           }
+           .Imgbox{
+             img{
+               float:left;
+             }
+           }
+
+        }
+        .goodsList-right{
+           float:right;
+           width:1001px;
+
+           .title{
+              height:60px;
+              text-align:right;
+
+              span{
+                  display: inline-block;
+                  padding:0 16px;
+                  margin-top:10px;
+                  height:24px;
+                  line-height:24px;
+                  border-right:solid 1px #ccc;
+
+              }
+              .active{
+                 color:red;
+                 border-bottom:solid 1px red;
+              }
+
+
+           }
+           .content{
+              width:1001px;
+              height:480px;
+              position:relative;
+
+              .content1{
+                 display:block;
+                 width:991px;
+                 height:480px;
+                 position:absolute;
+                 top:0;
+                 left:0;
+                 margin-left:10px;
+
+                 img{
+                   float:left;
+                 }
+              }
+              .content2{
+                 display:none;
+                 width:1001px;
+                 height:480px;
+                 position:absolute;
+                 top:0;
+                 left:0;
+
+                a{
+                   display: inline-block;
+                   width:170px;
+                   height:230px;
+                   margin:4px 12px;
+                   color:black;
+
+                   img{
+                      width:170px;
+                      height:170px;
+                   }
+                   span{
+                        color:red;
+                    }
+                }
+
+
+              }
+              .content3{
+                 display:none;
+                 width:1001px;
+                 height:480px;
+                 position:absolute;
+                 top:0;
+                 left:0;
+
+                 a{
+                   display: inline-block;
+                   width:170px;
+                   height:230px;
+                   margin:4px 12px;
+                   color:black;
+
+                   img{
+                      width:170px;
+                      height:170px;
+                   }
+                   span{
+                        color:red;
+                    }
+                }
+              }
+              .content4{
+                 display:none;
+                 width:1001px;
+                 height:480px;
+                 position:absolute;
+                 top:0;
+                 left:0;
+
+                 a{
+                   display: inline-block;
+                   width:170px;
+                   height:230px;
+                   margin:4px 12px;
+                   color:black;
+
+                   img{
+                      width:170px;
+                      height:170px;
+                   }
+                   span{
+                        color:red;
+                    }
+                }
+              }
+              
+           }
+        }
+	}
 }
 
 

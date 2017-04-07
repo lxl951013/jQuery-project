@@ -44,7 +44,7 @@ body {
 
 .container .min .content .content-left {
   float: left;
-  width: 738px;
+  width: 720px;
   height: 298px;
   padding: 10px 20px 10px 20px;
 }
@@ -71,6 +71,7 @@ body {
 
 .container .min .content .content-left form .user input {
   height: 30px;
+  width: 240px;
 }
 
 .container .min .content .content-left form .user p {
@@ -78,12 +79,12 @@ body {
   width: 353px;
   position: absolute;
   top: 10px;
-  right: 122px;
+  right: 22px;
 }
 
 .container .min .content .content-left form .user span {
   display: block;
-  width: 150px;
+  width: 240px;
   height: 20px;
   line-height: 20px;
   margin-left: 60px;
@@ -102,18 +103,19 @@ body {
 
 .container .min .content .content-left form .phone input {
   height: 30px;
+  width: 240px;
 }
 
 .container .min .content .content-left form .phone p {
   display: inline-block;
   width: 200px;
   position: absolute;
-  left: 260px;
+  left: 345px;
 }
 
 .container .min .content .content-left form .phone span {
   display: block;
-  width: 150px;
+  width: 240px;
   height: 20px;
   line-height: 20px;
   margin-left: 74px;
@@ -133,6 +135,7 @@ body {
 
 .container .min .content .content-left form .verification input {
   height: 30px;
+  width: 145px;
 }
 
 .container .min .content .content-left form .verification .randomNum {

@@ -1,0 +1,148 @@
+/* 
+  商品页面样式
+*/
+
+body{
+	font-family: '微软雅黑';
+	color: #000000;
+	font-size: 14px;
+	min-width: 1382px;
+}
+
+@import'var';
+
+
+/*  
+  nav
+*/
+
+.nav{
+	width:100%;
+	height:400px;
+
+	.nav-top{
+	   padding:20px $bodyPdR 0 $bodyPdL;
+	   height:182px;
+	   
+
+	   .content{
+	       height:180px;
+	       border:solid 1px #cccccc;
+
+	       .box1{
+	          margin:10px 0 0 20px;
+
+	          p{  
+	             height:26px;
+	            span{
+	              display: inline-block;
+	              padding-right:20px;
+	              border-right:solid 1px #cccccc;
+	            }
+	            a{
+	               margin:0 10px;
+	               color:black;
+	            }
+	            input{
+	              width:50px;
+	            }
+	          }
+	       }
+
+	       .box2{
+                position:relative;
+                height:40px;
+                margin-left:20px;
+	          h3{
+                  display: inline-block;
+                  font-size:14px;
+                  font-weight:normal;
+	           }
+	          .kuang{
+	              width:100px;
+	              display: inline-block;
+	              padding:5px 5px;
+	              border:solid 1px #cccccc;
+	              border-radius:4px 4px;
+
+
+
+	             h4{
+	               display: inline-block;
+	               padding-left:16px;
+	               font-size:14px;
+                   font-weight:normal;
+	             }
+	             img{
+	               display: inline-block;
+	               margin-left:30px;
+	               vertical-align:middle;
+	              
+	             }
+	             .hide{
+	                position:absolute;
+	                top:28px;
+	                left:-21px;
+	                width:978px;
+	                border:solid 1px #cccccc;
+	                display:none;
+
+	                a{
+                      margin:4px 10px;
+                      color:black;
+	                }
+
+
+	             }
+	          }
+	         
+	        }
+	   }
+	}
+	.nav-bootm{
+	   margin-left:$bodyPdL;
+	   margin-right:$bodyPdR;
+	   height:38px;
+	   background:#f0f0f0;
+	   margin-top:15px;
+
+	   .nav-bootm-left{
+	      display: inline-block;
+	      float:left;
+	      line-height:38px;
+	      a{ 
+	         padding:10px 10px;
+	         color:black;
+	         &:nth-child(1){
+	         background:#f8584f;
+	         color:white;
+	         }
+	      }
+
+	   }
+	   .nav-bootm-right{
+	      display: inline-block;
+	      float:right;
+
+	      .yema{
+	          float:left;
+	          line-height:38px;
+	         p{
+	         display: inline-block;
+	         }
+	         a{
+	         display: inline-block;
+	         margin-left:10px;
+	         color:black;
+	         }
+	      }
+	      .sexi{
+	         float:right;
+	         line-height:38px;
+	         margin-left:10px;
+	         margin-right:10px;
+	      }
+	   }
+
+	}
+}

@@ -118,6 +118,7 @@ body {
 .container .center .center-right .loding .user input {
   float: left;
   width: 168px;
+  height: 20px;
   margin-top: 14px;
   border: none;
   text-indent: 4px;
@@ -145,6 +146,7 @@ body {
 .container .center .center-right .loding .password input {
   float: left;
   width: 168px;
+  height: 20px;
   margin-top: 14px;
   border: none;
   text-indent: 4px;

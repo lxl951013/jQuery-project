@@ -103,5 +103,17 @@ $(function(){
          	$ul.css('left','0');
          
      });
+
+
+
+ /*  tab切换  */
+     // var $tab=$('.goodsList-right');
+
+     // // 给第一个tab加高亮
+     // $tab.children('.title').children().first().addClass('active');
+
+     // // 隐藏除第一个以外的.content
+     // $tab.children('.content').children().not(':first').hide();
+
 });
 

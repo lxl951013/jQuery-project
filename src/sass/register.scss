@@ -43,7 +43,7 @@ body{
 
 		    .content-left{
 		       float:left;
-		       width:738px;
+		       width:720px;
 		       height:298px;
 		       padding:10px 20px 10px 20px;
 
@@ -64,17 +64,18 @@ body{
 		                }
 		             input{
 		                height:30px;
+		                width:240px;
 		             }
 		             p{
 		                display: inline-block;
 		                width:353px;
 		                position:absolute;
 		                top:10px;
-		                right:122px;
+		                right:22px;
 		             }
 		            span{
                         display:block;
-                        width:150px;
+                        width:240px;
                         height:20px;
                         line-height:20px;
                         margin-left:60px;
@@ -92,17 +93,18 @@ body{
 				            }
 				        input{
 				            height:30px;
+				            width:240px;
 				        }
 				        p{
 			                display: inline-block;
 			                width:200px;
 			                position:absolute;
-			                left:260px;
+			                left:345px;
 			               
 		                }
                         span{
 	                        display:block;
-	                        width:150px;
+	                        width:240px;
 	                        height:20px;
 	                        line-height:20px;
 	                        margin-left:74px;
@@ -122,6 +124,7 @@ body{
 				        }
 				        input{
 				            height:30px;
+				            width:145px;
 				        }
 				        .randomNum{
 				            height:34px;
