@@ -17,7 +17,7 @@ body {
 */
 .nav {
   width: 100%;
-  height: 400px;
+  height: 255px;
 }
 
 .nav .nav-top {
@@ -149,4 +149,60 @@ body {
   line-height: 38px;
   margin-left: 10px;
   margin-right: 10px;
+}
+
+/* 商品列表 */
+.NCKList {
+  padding: 0 82px 0 100px;
+}
+
+.NCKList .UL {
+  overflow: hidden;
+  height: 2180px;
+}
+
+.NCKList .UL .LI {
+  width: 230px;
+  height: 418px;
+  float: left;
+  padding: 12px 18px 0 0;
+}
+
+.NCKList .UL .LI .ListA {
+  height: 315px;
+  display: block;
+}
+
+.NCKList .UL .LI .ListA .ListImg {
+  width: 230px;
+}
+
+.NCKList .UL .LI .ListH4 {
+  display: block;
+}
+
+.NCKList .UL .LI .ListP {
+  display: block;
+}
+
+.NCKList .UL .LI .ListH5 {
+  font-style: normal;
+  font-weight: bolder;
+}
+
+.NCKList .UL .LI .ListSpan {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: solid 1px #ccc;
+  margin-top: 2px;
+}
+
+.NCKList .UL .LI .ListSpan .ListBigImg {
+  width: 28px;
+  height: 28px;
+}
+
+.NCKList .UL .LI .spanLight {
+  border: solid 1px red;
 }
