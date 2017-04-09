@@ -15,8 +15,8 @@ $(function(){
             console.log(data);
 			ul.innerHTML=data.map(function(item){
 				return `
-                     <li>
-                        <a href="shopping.html" target="_blank" data-id="${item.imgurl}"><img src="${item.imgurl}" data-set="${item.id}"></a>
+                     <li data-guid="${item.id}">
+                        <a href="#" data-id="${item.imgurl}"><img src="${item.imgurl}" data-set="${item.id}"></a>
                         <h4>${item.brandname}</h4>
                         <p>${item.goodsname}</p>
                         <h5>${item.price}</h5>
@@ -51,14 +51,19 @@ $(function(){
 			        $(this).removeClass('spanLight');
 				//$(this).parent('li').children('a').children('img').attr('src','');
 				})
-		}
-
-				
+		}				
 			
 	});
 
 
-	
+	//点击商品时跳转到商品详情页，并保存信息到cookit
+	$NCKList.on('click','li a img',function(){
+		var $liID=$(this).parent().parent().attr('data-guid');
+		document.cookie='id='+$liID;
+
+		location.href='../html/shopping.html';
+
+	})
 	
 	
 	

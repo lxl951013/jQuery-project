@@ -10,7 +10,7 @@ requirejs.config({
 		'gongyong-html':'gongyong-html',
 		'gongyong':'gongyong',
 		'home2':'home2',
-		'home3':'home3',
+		'home3':'home3-shopping',
 		'register':'register',
 		'landing':'landing',
 

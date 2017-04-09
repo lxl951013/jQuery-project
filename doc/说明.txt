@@ -1,0 +1,5 @@
+列表页服务器打开：  http://localhost/myproject/src/html/goodslist.html
+
+购物车服务器打开：  http://localhost/myproject/src/html/shopping.html
+
+首页服务器打开 ：   http://localhost/myproject/src/index.html

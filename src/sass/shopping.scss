@@ -10,6 +10,22 @@ body{
 }
 
 @import'var';
+.arbzoom{
+	            position:absolute;
+	            width:280px;
+	            height:440px;
+	            overflow:hidden;
+	            background:pink;
+
+	            .bigImg{
+                   width:800px;
+                   height:920px;
+                   position:absolute;
+                   top:0;
+                   left:0;
+	            }
+
+	        }
 
 .details{
 	padding:0 $bodyPdR 0 $bodyPdL;
@@ -30,14 +46,62 @@ body{
 	    .box-top{
 	        width:480px;
 	        height:480px;
-	        background:blue;
+	        text-align:center;	        
+	        position:relative;
+	        text-align:center;
+            /*放大镜*/
+	        .minzoom{
+	            position:absolute;
+	            top:0;
+	            left:0;
+	            width:200px;
+	            height:200px;
+	            background-color: rgba(243,243,245,.7);
+	            filter:alpha(Opacity=30);
+	       
+	        }
+            /*放大区域*/
+	        .arbzoom{
+	            position:absolute;
+	            width:480px;
+	            height:240px;
+	            overflow:hidden;
+	            background:yellow;
+
+	            .bigImg{
+
+	            }
+
+	        }
+
+	        .IMG{
+	           width:480px;
+	           height:480px; 
+	           
+
+	        }
 	    }
 
 	    .box-center{
 	        width:480px;
 	        height:80px;
 	        margin-top:15px;
-	        background:pink;
+
+	        .SPAN{
+	           display: inline-block;
+	           height:78px;
+	           width:78px;
+	           border:solid 1px #ccc;
+	           margin-right:20px;
+
+	        }
+	        .DSPAN{
+	           border:solid 1px red;
+	        }
+	        .MIMG{
+	           height:78px;
+	           width:78px;
+	        }
 	    }
 
 	    .box-bottom{
@@ -72,12 +136,11 @@ body{
 
 	.details-right{
         float:left;
-        width:710px;
+        width:670px; /* 710px */
 
         h3{
            line-height:24px;
            height:24px;
-           background:yellow;
         }
 
         .mig{
@@ -102,8 +165,9 @@ body{
                       
                         span{
                             display: inline-block;
-                            width:20px;
+                            width:40px;
                             height:20px;
+                            margin-left:6px;
                         }
                     }
                     h6{
@@ -146,11 +210,24 @@ body{
             .choose1{
                 height:80px;
                 margin-top:20px;
-                background:yellow;
 
                 h4{
                     font-weight:normal;
                 }
+
+	            .RSPAN{
+		           display: inline-block;
+		           height:78px;
+		           width:78px;
+		           border:solid 1px #ccc;
+		           margin-right:20px;
+
+		        }
+
+		        .RMIMG{
+	               height:78px;
+	             width:78px;
+	            }
             }
             .choose2{
                 height:56px;

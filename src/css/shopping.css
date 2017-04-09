@@ -12,6 +12,22 @@ body {
 /*
    公用样式
 */
+.arbzoom {
+  position: absolute;
+  width: 280px;
+  height: 440px;
+  overflow: hidden;
+  background: pink;
+}
+
+.arbzoom .bigImg {
+  width: 800px;
+  height: 920px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .details {
   padding: 0 82px 0 100px;
   height: 675px;
@@ -33,14 +49,57 @@ body {
 .details .details-left .box-top {
   width: 480px;
   height: 480px;
-  background: blue;
+  text-align: center;
+  position: relative;
+  text-align: center;
+  /*放大镜*/
+  /*放大区域*/
+}
+
+.details .details-left .box-top .minzoom {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 200px;
+  background-color: rgba(243, 243, 245, 0.7);
+  filter: alpha(Opacity=30);
+}
+
+.details .details-left .box-top .arbzoom {
+  position: absolute;
+  width: 480px;
+  height: 240px;
+  overflow: hidden;
+  background: yellow;
+}
+
+.details .details-left .box-top .IMG {
+  width: 480px;
+  height: 480px;
 }
 
 .details .details-left .box-center {
   width: 480px;
   height: 80px;
   margin-top: 15px;
-  background: pink;
+}
+
+.details .details-left .box-center .SPAN {
+  display: inline-block;
+  height: 78px;
+  width: 78px;
+  border: solid 1px #ccc;
+  margin-right: 20px;
+}
+
+.details .details-left .box-center .DSPAN {
+  border: solid 1px red;
+}
+
+.details .details-left .box-center .MIMG {
+  height: 78px;
+  width: 78px;
 }
 
 .details .details-left .box-bottom {
@@ -71,13 +130,13 @@ body {
 
 .details .details-right {
   float: left;
-  width: 710px;
+  width: 670px;
+  /* 710px */
 }
 
 .details .details-right h3 {
   line-height: 24px;
   height: 24px;
-  background: yellow;
 }
 
 .details .details-right .mig {
@@ -104,8 +163,9 @@ body {
 
 .details .details-right .mig ul li p span {
   display: inline-block;
-  width: 20px;
+  width: 40px;
   height: 20px;
+  margin-left: 6px;
 }
 
 .details .details-right .mig ul li h6 {
@@ -144,11 +204,23 @@ body {
 .details .details-right .choose .choose1 {
   height: 80px;
   margin-top: 20px;
-  background: yellow;
 }
 
 .details .details-right .choose .choose1 h4 {
   font-weight: normal;
+}
+
+.details .details-right .choose .choose1 .RSPAN {
+  display: inline-block;
+  height: 78px;
+  width: 78px;
+  border: solid 1px #ccc;
+  margin-right: 20px;
+}
+
+.details .details-right .choose .choose1 .RMIMG {
+  height: 78px;
+  width: 78px;
 }
 
 .details .details-right .choose .choose2 {
