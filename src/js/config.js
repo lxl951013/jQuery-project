@@ -12,7 +12,7 @@ requirejs.config({
 		'home2':'home2',
 		'home3':'home3-shopping',
 		'register':'register',
-		'landing':'landing',
+		'landing':'landingto',
 
 
 	},

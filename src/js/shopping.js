@@ -4,12 +4,13 @@ requirejs(['config'],function($){
         requirejs(['gongyong'],function($){
 	
         });
-		requirejs(['gongyong-html'],function($){
-	
-        });
+		
         requirejs(['home3'],function($){
-	
+	        requirejs(['gongyong-html'],function($){
+    
+            });
+    
         });
-	
+        
      });
 });
