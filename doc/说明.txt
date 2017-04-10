@@ -3,3 +3,5 @@
 购物车服务器打开：  http://localhost/myproject/src/html/shopping.html
 
 首页服务器打开 ：   http://localhost/myproject/src/index.html
+
+github：https://github.com/lxl951013/project-make

@@ -1,2 +1,5 @@
 #过滤包管理目录
 /node_modules
+
+#过滤所有.zip文件
+*.zip 
