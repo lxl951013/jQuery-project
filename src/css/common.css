@@ -6,7 +6,8 @@ body {
   font-family: '微软雅黑';
   color: #231815;
   font-size: 14px;
-  min-width: 1382px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 /*
